@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cuteqt", "cuteqt\cuteqt.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cuteqt.Helper", "cuteqt.Helper\cuteqt.Helper.csproj", "{C58FFCBC-78FF-43A5-A3EB-60D08FDF0648}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cuteqt.Plugin", "cuteqt.Plugin\cuteqt.Plugin.csproj", "{8AC82315-0362-4E81-B3FD-D05077BB7642}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cuteqt.Configuration", "cuteqt.Configuration\cuteqt.Configuration.csproj", "{13E7D120-8E4D-48A3-B453-E1173CFA9E78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{C58FFCBC-78FF-43A5-A3EB-60D08FDF0648}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C58FFCBC-78FF-43A5-A3EB-60D08FDF0648}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C58FFCBC-78FF-43A5-A3EB-60D08FDF0648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AC82315-0362-4E81-B3FD-D05077BB7642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC82315-0362-4E81-B3FD-D05077BB7642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC82315-0362-4E81-B3FD-D05077BB7642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC82315-0362-4E81-B3FD-D05077BB7642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E7D120-8E4D-48A3-B453-E1173CFA9E78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E7D120-8E4D-48A3-B453-E1173CFA9E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E7D120-8E4D-48A3-B453-E1173CFA9E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E7D120-8E4D-48A3-B453-E1173CFA9E78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

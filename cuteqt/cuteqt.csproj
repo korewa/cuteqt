@@ -61,6 +61,7 @@
     <Compile Include="Controls\ResultBox.xaml.cs">
       <DependentUpon>ResultBox.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\MainWindowViewModel.cs" />
     <Compile Include="ViewModels\ResultViewModel.cs" />
     <Compile Include="Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -102,9 +103,17 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\cuteqt.Configuration\cuteqt.Configuration.csproj">
+      <Project>{13E7D120-8E4D-48A3-B453-E1173CFA9E78}</Project>
+      <Name>cuteqt.Configuration</Name>
+    </ProjectReference>
     <ProjectReference Include="..\cuteqt.Helper\cuteqt.Helper.csproj">
       <Project>{C58FFCBC-78FF-43A5-A3EB-60D08FDF0648}</Project>
       <Name>cuteqt.Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\cuteqt.Plugin\cuteqt.Plugin.csproj">
+      <Project>{8AC82315-0362-4E81-B3FD-D05077BB7642}</Project>
+      <Name>cuteqt.Plugin</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

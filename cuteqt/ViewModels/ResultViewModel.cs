@@ -1,11 +1,12 @@
 ﻿using cuteqt.Helper.MVVM;
+using cuteqt.Plugin;
 using System;
 using System.Collections.ObjectModel;
 using System.Windows.Media.Imaging;
 
 namespace cuteqt.ViewModels
 {
-    public class ResultViewModel : ViewModelBase
+    internal class ResultViewModel : ViewModelBase
     {
         public ObservableCollection<Result> ResultCollection { get; } = new ObservableCollection<Result>();
 
@@ -24,14 +25,5 @@ namespace cuteqt.ViewModels
             ResultCollection.Add(new Result() { Text = "Blend for Visual Studio 2015", SubText = @"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Blend for Visual Studio 2015.lnk", Icon = img });
             ResultCollection.Add(new Result() { Text = "Blend for Visual Studio 2017", SubText = @"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Blend for Visual Studio 2017.lnk", Icon = img });
         }
-    }
-
-    public class Result
-    {
-        public string Text { get; set; }
-
-        public string SubText { get; set; }
-
-        public BitmapImage Icon { get; set; }
     }
 }
